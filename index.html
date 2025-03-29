@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capacitaciones GIT - GITHUB</title>
     <link rel="stylesheet" href="./resourse/css/style.css">
 </head>
+
 <body>
-    
+
+    <nav>
+        <ul>
+            <li><a href="#home" onclick="showSection('home')">Home</a></li>
+            <li><a href="#about" onclick="showSection('about')">Sobre Mí</a></li>
+            <li><a href="#projects" onclick="showSection('projects')">Proyectos</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section active">
+        <h1>Bienvenido a mi página personal</h1>
+        <p>Explora mi trabajo y conoce más sobre mí.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h1>Sobre Mí</h1>
+        <p>Soy un apasionado del desarrollo web, creando soluciones modernas y eficientes.</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h1>Proyectos</h1>
+        <p>Aquí puedes ver algunos de mis proyectos más recientes.</p>
+    </section>
     <script src="./resourse/js/app.js"></script>
 </body>
+
 </html>
